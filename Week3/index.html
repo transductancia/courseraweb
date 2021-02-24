@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Besto Restaurante</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Besto restaurante</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="collapsable-nav">
+          <ul class="nav navbar-nav navbar-right" id="nav-list">
+            <li><a href="menu-categories.html">
+                    <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">
+                    Menu
+                </a>
+            </li>
+            <li><a href="#">
+                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">
+                    About
+                </a>
+            </li>
+            <li><a href="#">
+                    <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">
+                    Awards
+                </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:3002050048">
+                <span>3002050048</span></a><div>*we deliver</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:3002050048">
+    <span class="glyphicon glyphicon-earphone"></span>
+    3002050048
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <div class="container" id="main-content">
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of the restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <div class="row" id="home-tiles">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html"><div id="specials-tile"><span>Specials</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+       <a href="https://goo.gl/maps/uMi4Zh9jxTa6Mkzg6" target="_BLANK">
+         <div id="map-tile">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1956.8081074643624!2d-74.17901910631844!3d11.216005398670157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x894038f60690e6ad!2sEducational%20Citadel%20Cooedumag!5e0!3m2!1sen!2sco!4v1614033808043!5m2!1sen!2sco" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           <span>Map</span>
+         </div>
+       </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Lun-Sab: 11:15am - 11:00pm <br>
+          Vier: 11:15am - 2:30pm <br>
+          Dom: Cerrado
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          Mz 8 Casa 5, Filadelfia<br>
+          Santa Marta
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Besto Restaurante 2021</div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
